@@ -1,0 +1,158 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    padding: 16px;
+    background: #1f2937;
+    color: #fff;
+    gap: 16px;
+}
+.header span {
+    margin-right: auto;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.header a {
+    color: #E5E7EB;
+}
+
+/* Hero */
+
+.hero {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.hero h1 {
+    margin: 0;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-container {
+    width: 400px;
+}
+
+button {
+    padding: 8px 24px;
+    background: #3882F6;
+    color: #fff;
+    font-weight: bold;
+    border: 5px;
+    border-radius: 5px;
+}
+
+/* Cards */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.cards h2 {
+    margin: 0 0 32px 0;
+    padding: 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    gap: 12px;
+    flex-basis: 100px;;
+    color: grey;
+}
+
+.card img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* Credentials */
+
+.credentials {
+    background: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.credentials-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 32px;
+}
+
+.credentials-container p {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.credentials-container span {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+/*  Call to action */
+
+.call-to-action {
+
+}
+
+.cta-container {
+    display: flex;
+    flex: 0;
+    margin: 52px;
+    padding: 52px;
+    background-color: #3882F6;
+    color: #fff;;
+    align-items: center;
+}
+
+.cta-container button {
+    margin-left: auto;
+    border: 2px solid #ffffff;
+    padding: 8px 24px;
+    flex: 0 0 auto;
+}
+
+.footer {
+    background: #1f2937;
+    display: flex;
+    padding: 32px;
+    color: #fff;
+    justify-content: center;
+}
